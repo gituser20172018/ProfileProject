@@ -1,14 +1,47 @@
 body{
-	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
 	font-size: 18px;
 	color: #383838;
 	line-height: 30px;
 	background: #1b7e5a;
 	line-height: 1.5;
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(#1f1f2e), to(white));
+	background-image: -webkit-linear-gradient(top, #1f1f2e, white);
+	background-image: -moz-linear-gradient(top, #1f1f2e, white);
+	background-image: linear-gradient(to bottom, #1f1f2e, white);*/
 }
 #horizontal-ad{display:block;}
 #box-ad{display:none;}
 .topbottom {margin: 6% auto;}
+.emphasself{
+ 	color:#f71010;
+    font-style:italic;
+}
+.emphasself1{
+ 	color:blue;
+    font-style:italic;
+}
+.span5{
+    box-shadow: 0 10px 30px black;	
+}
+#portraint{
+	border: 4px solid white;
+	box-sizing: border-box;	
+	outline: 1px solid black;
+	border-radius:4px;
+	
+}
+.bars{
+	box-shadow: 1px 3px 10px black;
+}
+.content{
+	color:#0a0a0f;
+
+}
+.emphasself1{
+ 	color:#000080;
+    font-style:Bold;
+}
 
 a, a:hover{
 	text-decoration: none;
@@ -248,7 +281,7 @@ a, a:hover{
 }
 .jqbar.active .bar-level, .jqbar.hover .bar-level
 {
-	background-color:rgb(24, 141, 98)!important;
+	background-color:black;!important;
 }
 
  .flip-container
@@ -320,7 +353,12 @@ a, a:hover{
 			padding-right: 45px;
 		 }
 		 .span5{background-color:#232323;}
-		 .span7{background-color:#ffffff;}
+		 .span7{background-color:#ffffff;
+		 	 box-sizing: border-box;
+			 border:1px solid #101010;
+			 border-radius: 4px;
+			 box-shadow: 10px 10px 30px black;
+		 }
 		 
 		 
 .user-tip { 

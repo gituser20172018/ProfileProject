@@ -13,7 +13,7 @@ License: http://www.egrappler.com/license.
                 barLength: 200,
                 orientation: 'h',
                 barWidth: 15,
-                barColor: 'red',
+                barColor: 'blue',
                 label: '&nbsp;',
                 value: 100
             }, options);
@@ -30,9 +30,13 @@ License: http://www.egrappler.com/license.
                     var progressLabel = progressContainer.find('.bar-label').html(settings.label);
                     var progressBar = progressContainer.find('.bar-level').attr('data-value', settings.value);
                     var progressBarWrapper = progressContainer.find('.bar-level-wrapper');
-
+                    if(settings.value>=95)
+                        settings.barColor='#110033';
+                    else if(settings.value>75)
+                        settings.barColor='#1100f3';
+                    else
+                        settings.barColor='#999';
                     progressBar.css({ height: settings.barWidth, width: 0, backgroundColor: settings.barColor });
-
                     var valueLabel = progressContainer.find('.bar-percent');
                     valueLabel.html('0');
                 }
