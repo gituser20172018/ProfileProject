@@ -30,7 +30,7 @@
 		<div class="row-fluid">
 
 			<div class="span5">
-				<img src="img/avatar.jpg" alt="Profile Avatar" class="avatar">
+				<img src="img/avatar.jpg" alt="Profile Avatar" class="avatar" id="portrait">
 
 				<div class="navigation">
 					<div>
@@ -58,15 +58,25 @@
 
 			<div class="span7 homeabout">
 				<div class="person">
-					<span class="name">John Donga</span>
-					<div class="font16">Co-founder at <span class="greentext"><a href="#">EGrappler.com</a></span></div>
+					<span class="name">Aapo Llves</span>
+					<div class="font16" style="font-size:20px; color: blue">Front-End Developer /JavaScript/Html5/CSS3 Expert</div>
 				</div>
 				<div class="desciption home">
-					<p>Known as Johny, I am a web designer and <span class="rotate greentext">WordPress Theme Designer, WordPress Theme Developer</span> living in Pakistan with my wife and two kids. I‘m an active author at Themeforest where I enjoy spending my day in Photoshop converting custom designs into fancy pants <span class="greentext">Custom WordPress Themes</span>.</p>
+					<p>I have more than 7 years of experience in Front-End Development.
+					<p>I love to write code in a high-paced and challenging environment with an emphasis on using best practices to develop high quality software that meets project requrements, budget, schedule.</p>
+					<p>I enjoy learning new technologies and sharing findings with my colleages.
+					<p>Main Skills<br>
+						💛Languages<br>
+    						JavaScript, SQL, HTML, HTML5, CSS, CSS3, SASS<br>
+						💛Frameworks<br>
+     						Angular.js,React.js, Node.js, Twitter Bootstrap<br>
+						💛Libraries/APIs<br>
+     						Modernizr, jQuery, Ajax</p>
 				</div>	
+<!--
 				<div class="row">
 					<div class="span12">					
-						<!--Google Ad here-->
+				
 						<div id="horizontal-ad" >
 							<script type="text/javascript"><!--
 							google_ad_client = "ca-pub-6472538845369616";
@@ -74,7 +84,6 @@
 							google_ad_slot = "6440596675";
 							google_ad_width = 468;
 							google_ad_height = 60;
-							//-->
 							</script>
 							<script type="text/javascript"
 							src="//pagead2.googlesyndication.com/pagead/show_ads.js">
@@ -87,15 +96,16 @@
 							google_ad_slot = "5067431585";
 							google_ad_width = 300;
 							google_ad_height = 250;
-							//-->
+					
 							</script>
 							<script type="text/javascript"
 							src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 							</script>
 						</div>
-						<!--Google ad ends here-->    
+						
 					</div>
 				</div>
+-->				
 				<div class="row">
 					<div class="span6">
 						 <div class="bars">
@@ -106,6 +116,8 @@
 							<div id="bar-3">
 							</div>
 							<div id="bar-4">
+							</div>
+							<div id="bar-5">
 							</div>
                            
 						</div>
@@ -134,8 +146,8 @@
 	
 	<script type="text/javascript">
 	 $(document).ready(function () {			
-		
-            $('#bar-1').jqbar({ label: 'HTML5', value: 80, barColor: '#21ba82' });
+		    
+            $('#bar-1').jqbar({ label: 'HTML5', value: 100, barColor: '#21ba82' });
 
             $('#bar-2').jqbar({ label: 'CSS', value: 99, barColor: '#21ba82' });
 
@@ -143,7 +155,7 @@
 
             $('#bar-4').jqbar({ label: 'WordPress', value: 75, barColor: '#21ba82' });
 
-          
+            $('#bar-5').jqbar({ label: 'High', value: 95, barColor: '#21ba82' });
 			
 			$('#bars-content .content').css({'opacity':'0',display:'none'});
 			$('#bars-content .content:eq(0)').css('display','block').animate({opacity:1},1000);
